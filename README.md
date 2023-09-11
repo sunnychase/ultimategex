@@ -4,14 +4,13 @@ Must use CBEO Options Data - https://www.cboe.com/delayed_quotes
 ![Title2](https://github.com/sunnychase/ultimategex/assets/144634772/88075bf2-7b6c-41d3-88f6-cfe4b1efc5b1)
 
 # Total Gamma
-Total gamma contribution from each option. The formula is:
-Option’s Gamma * Contract Size * Open Interest * Spot Price * (-1 if puts)
-
+Total gamma contribution from each option. The formula is:<br></br>
+Option’s Gamma * Contract Size * Open Interest * Spot Price * (-1 if puts)<br></br>
 This gives the total option’s change in delta per ONE POINT move in the index. To convert into percent, we must multiply by how many points 1% is. Hence, we multiply by 1% * Spot Price, giving the final formula:
 Option’s Gamma * Contract Size * Open Interest * Spot Price ^ 2 * 0.01
 
 
-TO ALL EQUITY PMs:
+##TO ALL EQUITY PMs:
 
 YOU MAY NOT BE INTERESTED IN OPTIONS, BUT OPTIONS ARE INTERESTED IN YOU!
 
@@ -20,8 +19,6 @@ $SPX options make up 16% of the $SPX market cap!
 Options gamma is one of the most significant structural flows within the equity markets.
 
 Let’s explore how it impacts your business.
-
-
 
 Options are often linked to insurance.
 
