@@ -1,6 +1,10 @@
-# ultimategex
+# Ultimate Gex
 Gamma Calculator 
 Must use CBEO Options Data - https://www.cboe.com/delayed_quotes
+
+![Title2](https://github.com/sunnychase/ultimategex/assets/144634772/88075bf2-7b6c-41d3-88f6-cfe4b1efc5b1)
+
+
 
 # Total Gamma
 Total gamma contribution from each option. The formula is:
