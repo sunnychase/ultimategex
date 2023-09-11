@@ -6,9 +6,9 @@ Must use CBEO Options Data - https://www.cboe.com/delayed_quotes
 # Total Gamma
 Total gamma contribution from each option. The formula is:<br></br>
 Option’s Gamma * Contract Size * Open Interest * Spot Price * (-1 if puts)<br></br>
-This gives the total option’s change in delta per ONE POINT move in the index. To convert into percent, we must multiply by how many points 1% is. Hence, we multiply by 1% * Spot Price, giving the final formula:
+This gives the total option’s change in delta per ONE POINT move in the index. To convert into percent, we must multiply by how many points 1% is. Hence, we multiply by 1% * Spot Price, giving the final formula:<br></br>
 Option’s Gamma * Contract Size * Open Interest * Spot Price ^ 2 * 0.01
-
+<br></br>
 
 ##TO ALL EQUITY PMs:
 
