@@ -5,7 +5,6 @@ Must use CBEO Options Data - https://www.cboe.com/delayed_quotes
 ![Title2](https://github.com/sunnychase/ultimategex/assets/144634772/88075bf2-7b6c-41d3-88f6-cfe4b1efc5b1)
 
 
-
 # Total Gamma
 Total gamma contribution from each option. The formula is:
 Option’s Gamma * Contract Size * Open Interest * Spot Price * (-1 if puts)
@@ -102,16 +101,17 @@ Due to its nature, gamma can exacerbate market moves (“short gamma”) or damp
 
 (The street == options market makers and dealers)
 
-Long Gamma and Short Gamma
+## Long Gamma and Short Gamma
+
 A quick rule of thumb – you are long gamma when you buy options and short gamma when you sell.
 
 When the street is long gamma, that means option market makers net-net bought options. Their delta-hedging activity forces them to “buy low, sell high”. They are sellers when the market rallies and buyers when it drops, conveniently adding liquidity and reducing volatility.
 
-
+![longGamma](https://github.com/sunnychase/ultimategex/assets/144634772/b0cfba2e-81b9-4dad-b992-9db006bea020)
 
 When the street is short gamma, the opposite happens. Dealers’ book is short options, and they “buy high, sell low”. This exacerbates market moves and removes liquidity (frequently, when it’s needed the most).
 
-
+![shortGamma](https://github.com/sunnychase/ultimategex/assets/144634772/81895621-44a0-4f11-8d72-d907c3ea1a71)
 
 So how is the street positioned?
 
