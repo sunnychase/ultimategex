@@ -121,7 +121,7 @@ However, an educated guess can help us approximate gamma exposure.
 
 On an index level, it is generally believed that investors predominantly buy puts for protection and sell calls as part of overwriting strategies. This is evident in the $SPX skew, which shows higher implied volatility for puts than calls.
 
-
+<img width="973" alt="skew" src="https://github.com/sunnychase/ultimategex/assets/144634772/0f52bcf0-71ae-42e9-b3a3-7e39a1af5159">
 
 However, this can overestimate gamma as investors also sell puts for yield (structured products) and buy calls for leverage.
 
@@ -131,7 +131,7 @@ Hence the street is short gamma on the downside and long gamma on the upside.
 
 A closely monitored data point is where the gamma is zero – known as the gamma flip. At the moment, this is around 4,660 for $SPX.
 
-
+![9-10-2023 6-00-48 PM](https://github.com/sunnychase/ultimategex/assets/144634772/c601b8f3-a9c5-414c-b1f7-310d793be8b1)
 
 If we’re above the gamma flip, the volatility tends to be low, as the market has to swim against the current of the options flow.
 
@@ -143,19 +143,22 @@ When is Gamma the Strongest?
 Of course, gamma is just one of the market forces here, and its impact largely depends on several factors, such as:
 
 • Time to Expiry
+
 • Open Interest
+
 • Market Liquidity
+
 • Volatility
 
 For any single option, gamma is a bell-shaped curve centered around the strike. And it’s the highest for short-dated, at-the-money (ATM) options:
 
-
+<img width="727" alt="GammaSingleOption" src="https://github.com/sunnychase/ultimategex/assets/144634772/f2aa84fb-4ca5-44be-9324-7595f0079e18">
 
 Hence, if the market is trading around a soon-to-expire strike with a high open interest, it’s more likely that its gamma flows will impact the market.
 
 The most open interest is frequently concentrated around large expiries and nice, round strikes:
 
-
+![9-10-2023 6-02-55 PM](https://github.com/sunnychase/ultimategex/assets/144634772/0f2d9643-a41f-4ced-84f1-000821b2c5d7)
 
 What do I mean by “large” expiries?
 
