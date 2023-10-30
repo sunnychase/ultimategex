@@ -75,7 +75,7 @@ df['CallGEX'] = df['CallGamma'] * df['CallOpenInt'] * 100 * spotPrice * spotPric
 df['PutGEX'] = df['PutGamma'] * df['PutOpenInt'] * 100 * spotPrice * spotPrice * 0.01 * -1
 
 df['TotalGamma'] = (df.CallGEX + df.PutGEX) / 10**9
-dfAgg = df.groupby(['StrikePrice']).sum()
+dfAgg = df.groupby(['StrikePrice']).sum(numeric_only=True)
 strikes = dfAgg.index.values
 
 # Chart 1: Absolute Gamma Exposure
